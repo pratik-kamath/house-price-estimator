@@ -1,0 +1,16 @@
+beautifulsoup4
+selenium
+requests
+pandas
+numpy
+xgboost
+catboost
+shap
+scikit-learn
+streamlit
+matplotlib
+seaborn
+lxml
+fake-useragent
+tqdm
+python-dotenv
