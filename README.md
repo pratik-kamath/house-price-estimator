@@ -4,10 +4,7 @@ This project predicts property prices in the Sydney real estate market using mac
 
 ## 🔧 Features
 
-- Scrapes property listing data from:
-  
-  valuation.property.nsw.gov.au/embed/propertySalesInformation
-
+- **Data Source**: [NSW Valuer General](https://www.valuergeneral.nsw.gov.au/__psi/yearly/20XX.zip) (Replace `20XX` with the year, e.g., `2023`)
 - Cleans and preprocesses real estate data
 - Trains a regression model (XGBoost or CatBoost)
 - Uses SHAP to explain predictions
