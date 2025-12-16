@@ -9,8 +9,8 @@ This project uses machine learning to estimate property prices in the Sydney rea
 
 ```mermaid
 graph TD
-    A[Raw Data (.DAT)] -->|Ingestion| B[Sales History (.parquet)]
-    B -->|Cleaning & Filtering| C[Training Data (.parquet)]
+    A["Raw Data (.DAT)"] -->|Ingestion| B["Sales History (.parquet)"]
+    B -->|Cleaning & Filtering| C["Training Data (.parquet)"]
     C -->|Feature Engineering| D[CatBoost Model]
     D -->|Inference| E[Streamlit Dashboard]
     E -->|User Input| F[Price Estimate]
